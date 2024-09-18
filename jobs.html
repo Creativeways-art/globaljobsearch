@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browse Jobs - Global Job Search</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #333;
+        }
+
+        header, footer {
+            background-color: #4A90E2;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .job-listing {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-listing h3 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+
+        .job-listing p {
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .job-listing ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .job-listing ul li {
+            margin-bottom: 8px;
+        }
+
+        .apply-btn {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: #ff5a5f;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .apply-btn:hover {
+            background-color: #e64949;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Global Job Search</h1>
+    <nav>
+        <a href="jobs.html">Browse Jobs</a>
+        <a href="hr.html">HR Contacts</a>
+        <a href="support.html">Support</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Available Jobs</h2>
+    
+    <!-- Job Listing 1 -->
+    <div class="job-listing">
+        <h3>Software Engineer - Frontend</h3>
+        <p>Company: Amazon</p>
+        <p><strong>Description:</strong> Join our team to develop scalable and responsive web applications.</p>
+        <ul>
+            <li>3+ years experience in JavaScript, React.js</li>
+            <li>Proficient in HTML/CSS</li>
+            <li>Strong problem-solving skills</li>
+        </ul>
+        <a href="apply.html?job=Software Engineer - Frontend&company=Amazon" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 2 -->
+    <div class="job-listing">
+        <h3>Data Analyst</h3>
+        <p>Company: Facebook</p>
+        <p><strong>Description:</strong> Provide data-driven insights and help optimize our marketing efforts.</p>
+        <ul>
+            <li>Experience with SQL and Excel</li>
+            <li>Strong data visualization skills</li>
+            <li>Degree in Data Science or related field</li>
+        </ul>
+        <a href="apply.html?job=Data Analyst&company=Facebook" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 3 -->
+    <div class="job-listing">
+        <h3>Marketing Specialist</h3>
+        <p>Company: Apple</p>
+        <p><strong>Description:</strong> Manage campaigns and optimize digital marketing strategies for maximum ROI.</p>
+        <ul>
+            <li>2+ years in digital marketing</li>
+            <li>Experience with SEO and SEM</li>
+            <li>Strong communication skills</li>
+        </ul>
+        <a href="apply.html?job=Marketing Specialist&company=Apple" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 4 -->
+    <div class="job-listing">
+        <h3>UX/UI Designer</h3>
+        <p>Company: LinkedIn</p>
+        <p><strong>Description:</strong> Create user-centered designs that enhance customer experience and product usability.</p>
+        <ul>
+            <li>3+ years experience in UX/UI design</li>
+            <li>Proficiency in Figma, Sketch</li>
+            <li>Strong portfolio showcasing design projects</li>
+        </ul>
+        <a href="apply.html?job=UX/UI Designer&company=LinkedIn" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 5 -->
+    <div class="job-listing">
+        <h3>DevOps Engineer</h3>
+        <p>Company: Microsoft</p>
+        <p><strong>Description:</strong> Build and manage scalable cloud infrastructure for enterprise-level applications.</p>
+        <ul>
+            <li>Experience with AWS, Azure</li>
+            <li>Knowledge of CI/CD pipelines</li>
+            <li>Scripting in Python, Bash</li>
+        </ul>
+        <a href="apply.html?job=DevOps Engineer&company=Microsoft" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 6 -->
+    <div class="job-listing">
+        <h3>Project Manager</h3>
+        <p>Company: IBM</p>
+        <p><strong>Description:</strong> Lead cross-functional teams to deliver software projects on time and within scope.</p>
+        <ul>
+            <li>PMP certification preferred</li>
+            <li>Experience in Agile and Scrum</li>
+            <li>Strong leadership and communication skills</li>
+        </ul>
+        <a href="apply.html?job=Project Manager&company=IBM" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 7 -->
+    <div class="job-listing">
+        <h3>Content Writer</h3>
+        <p>Company: Spotify</p>
+        <p><strong>Description:</strong> Develop engaging content for blogs, podcasts, and social media campaigns.</p>
+        <ul>
+            <li>Excellent writing and editing skills</li>
+            <li>Experience in digital content creation</li>
+            <li>Knowledge of SEO best practices</li>
+        </ul>
+        <a href="apply.html?job=Content Writer&company=Spotify" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 8 -->
+    <div class="job-listing">
+        <h3>Cybersecurity Analyst</h3>
+        <p>Company: Cisco</p>
+        <p><strong>Description:</strong> Analyze, monitor, and protect IT infrastructure from cyber threats.</p>
+        <ul>
+            <li>Experience with security frameworks (NIST, ISO)</li>
+            <li>Knowledge of SIEM tools</li>
+            <li>CISSP certification preferred</li>
+        </ul>
+        <a href="apply.html?job=Cybersecurity Analyst&company=Cisco" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 9 -->
+    <div class="job-listing">
+        <h3>Customer Support Specialist</h3>
+        <p>Company: Shopify</p>
+        <p><strong>Description:</strong> Assist customers with product-related queries and technical support via chat and email.</p>
+        <ul>
+            <li>Experience in customer service</li>
+            <li>Strong problem-solving skills</li>
+            <li>Excellent written and verbal communication</li>
+        </ul>
+        <a href="apply.html?job=Customer Support Specialist&company=Shopify" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 10 -->
+    <div class="job-listing">
+        <h3>Financial Analyst</h3>
+        <p>Company: Goldman Sachs</p>
+        <p><strong>Description:</strong> Provide financial insights and analyses to support business decision-making.</p>
+        <ul>
+            <li>Experience in financial modeling</li>
+            <li>Strong analytical and quantitative skills</li>
+            <li>CFA certification preferred</li>
+        </ul>
+        <a href="apply.html?job=Financial Analyst&company=Goldman Sachs" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 11 -->
+    <div class="job-listing">
+        <h3>Operations Manager</h3>
+        <p>Company: Uber</p>
+        <p><strong>Description:</strong> Oversee daily operations, manage teams, and ensure smooth service delivery.</p>
+        <ul>
+            <li>5+ years of experience in operations management</li>
+            <li>Strong leadership skills</li>
+            <li>Experience in logistics and transportation preferred</li>
+        </ul>
+        <a href="apply.html?job=Operations Manager&company=Uber" class="apply-btn">Apply Now</a>
+    </div>
+
+    <!-- Job Listing 12 -->
+    <div class="job-listing">
+        <h3>Graphic Designer</h3>
+        <p>Company: Adobe</p>
+        <p><strong>Description:</strong> Create stunning visual assets for web, mobile, and print campaigns.</p>
+        <ul>
+            <li>Proficiency in Adobe Creative Suite</li>
+            <li>Strong portfolio with branding and web design projects</li>
+            <li>Attention to detail and creativity</li>
+        </ul>
+        <a href="apply.html?job=Graphic Designer&company=Adobe" class="apply-btn">Apply Now</a>
+    </div>
+</div>
+
+<footer>
+    <p>© 2024 Global Job Search. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
