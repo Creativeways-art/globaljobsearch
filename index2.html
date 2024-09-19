@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Job Search</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9fafb;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #4A90E2;
+            padding: 20px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(to right, #667eea, #764ba2);
+            height: 70vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero h2 {
+            font-size: 3.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .btn-cta {
+            padding: 15px 30px;
+            background-color: #ff5a5f;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .btn-cta:hover {
+            background-color: #e64949;
+        }
+
+        /* Features Section */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .features div {
+            max-width: 300px;
+            text-align: center;
+        }
+        .features h3 {
+            font-size: 1.7em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .features p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        /* Quote Section */
+        .quotes {
+            background-color: #f0f4f8;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .quotes blockquote {
+            font-size: 1.4em;
+            margin: 0;
+            color: #333;
+        }
+        .quotes cite {
+            display: block;
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        /* Contact Form */
+        .contact-form {
+            padding: 50px 20px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .contact-form form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-form h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .contact-form label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        .contact-form button {
+            padding: 12px 25px;
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #357ABD;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 50px;
+            background-color: #4A90E2;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        footer .social-icons {
+            margin-top: 20px;
+        }
+        footer .social-icons img {
+            width: 30px;
+            margin: 0 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Global Job Search</h1>
+        <nav>
+            <a href="jobs.html">Browse Jobs</a>
+            <a href="our-team.html">Our Team</a>
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Your Career Starts Here</h2>
+        <p>Join the global workforce and build your future today.</p>
+        <a href="jobs.html"><button class="btn-cta">Explore Jobs</button></a>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div>
+            <h3>Top Global Companies</h3>
+            <p>Connect with industry leaders like Google, Amazon, and Apple.</p>
+        </div>
+        <div>
+            <h3>Diverse Job Roles</h3>
+            <p>We offer opportunities across a variety of sectors to match your expertise.</p>
+        </div>
+        <div>
+            <h3>Fast and Simple Applications</h3>
+            <p>Apply with a few clicks and get closer to your dream job.</p>
+        </div>
+    </section>
+
+    <!-- Quotes Section -->
+    <section class="quotes">
+        <blockquote>
+            "This platform helped me land my dream job at a leading tech company!"
+        </blockquote>
+        <cite>- Sarah Jones, Software Developer</cite>
+        <blockquote>
+            "The process was so smooth and fast. I highly recommend this job portal."
+        </blockquote>
+        <cite>- David Lee, Marketing Specialist</cite>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <h2>Submit Your CV</h2>
+        <p>Want to get hired? Leave your details and upload your CV, and our team will get in touch!</p>
+        <form id="cvForm" action="#" method="POST" enctype="multipart/form-data" onsubmit="handleSubmit(event)">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="cv">Attach Your CV</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+            
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="successMessage" style="display:none; color:green; font-size:1.2em;">Your CV has been successfully submitted!</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Global Job Search. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault(); // Prevent the form from refreshing the page
+            const form = document.getElementById('cvForm');
+            const successMessage = document.getElementById('successMessage');
+
+            // Show the success message after submission
+            successMessage.style.display = 'block';
+            form.reset(); // Clear the form
+        }
+    </script>
+</body>
+</html>
